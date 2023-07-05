@@ -1,0 +1,86 @@
+@font-face {
+  font-family: JakartaSans;
+  src: url("../fonts/PlusJakartaSans-VariableFont_wght.ttf");
+}
+
+body{
+ font-family: JakartaSans;
+ width: 23em;
+ margin: 1em;
+}
+
+header{
+  display: grid;
+  grid-template-rows: 4em;
+  grid-template-columns: repeat(3, 7.4em);
+  margin-top: -1em;
+}
+
+header h3{
+  font-size: 1.3em;
+}
+
+.counter{
+  width: 1.4em;
+  height: 1.2em;
+  background: hsl(219, 85%, 26%);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5em 0 0 .6em;
+}
+
+#count{
+  color: white;
+  font-weight: bold;
+}
+
+header .mark{
+ font-size: 1em;
+ margin-top: 1.4em;
+}
+
+header .mark:hover{
+  color: hsl(219, 85%, 26%);
+}
+
+.notifications{
+  display: grid;
+  grid-auto-rows: 7.4em;
+  grid-template-columns: 23em;
+ font-size: 15px;
+}
+
+.notifications .notification{
+  display: grid;
+  grid-template-rows: 7.4em;
+  grid-template-columns: 4.6em 18.2em;
+  margin-top: .7em;
+  margin-bottom: .7em;
+}
+
+.notification img{
+  width: 3em;
+  height: 3em;
+  max-width: 100%;
+  margin-top: 1em;
+  margin-left: .5em;
+}
+
+.notification .name{
+  position: relative;
+}
+
+.boldText{
+  color: hsl(219, 12%, 42%);
+}
+
+b:hover{
+  color: hsl(219, 85%, 26%);
+}
+
+.unread{
+  background: hsl(210, 60%, 96%);
+  border-radius: 5px;
+}
